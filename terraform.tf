@@ -1,6 +1,5 @@
 terraform {
-/*
-  cloud {
+    cloud {
     organization = "TheBearCave"
 
     workspaces {
@@ -8,7 +7,7 @@ terraform {
     }
   }
 
-*/
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
